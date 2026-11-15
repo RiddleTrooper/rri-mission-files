@@ -21,94 +21,118 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=445;
+		nextID=514;
 	};
 	class Camera
 	{
-		pos[]={4070.3892,300.49036,6477.1895};
-		dir[]={0.39698499,-0.47582322,0.78485429};
-		up[]={0.21476485,0.87954032,0.42459831};
-		aside[]={0.89234436,1.641456e-08,-0.45135441};
+		pos[]={19500.574,262.75711,18479.811};
+		dir[]={-0.88038808,-0.46281579,-0.1036967};
+		up[]={-0.45965135,0.88644713,-0.054138333};
+		aside[]={-0.11697459,-1.268927e-07,0.99315047};
 	};
 };
 binarizationWanted=0;
 sourceName="Snatch_and_Grab";
 addons[]=
 {
+	"JLTS_core_droids",
 	"A3_Ui_F",
-	"3AS_Prop_Crates",
-	"A3_Rocks_F_Exp_Cliff",
+	"A3_Structures_F_Walls",
+	"A3_Structures_F_Ind_Transmitter_Tower",
+	"cba_xeh",
+	"A3_Structures_F_Mil_Bunker",
+	"A3_Structures_F_Enoch_Infrastructure_Roads",
+	"A3_Structures_F_EPC_Dominants_GhostHotel",
 	"3AS_Structures_FOB",
 	"ls_props_structures",
+	"3AS_Prop_Crates",
+	"CUP_Editor_Rocks_Config",
 	"3AS_Prop_Barricades",
-	"3AS_Prop_Platforms",
-	"3AS_Prop_Catwalks",
-	"3AS_Prop_pipes",
-	"3AS_Prop_Terminals",
-	"OPTRE_BW_WarehouseRS",
-	"3AS_AAT",
-	"rri_factions_cis",
-	"SFA_objects",
-	"3AS_Structures2_GenericFOB",
-	"OPTRE_BW_ModularBuildings",
-	"3AS_Prop_Generators",
-	"A3_Modules_F",
-	"ls_props",
-	"3AS_Structures_ShieldGenerator",
-	"3AS_Structures2_FlatShields",
-	"3AS_Structures_LandingPads",
-	"3AS_Imperial",
-	"ls_holoprojector",
-	"3AS_Prop_planetaryshields",
-	"ls_props_staticships",
-	"A3_Structures_F_Dominants_Lighthouse",
-	"3AS_Static_ParticleCannon",
-	"3AS_Static_FieldCannon",
-	"3AS_Static_J1_Proton_Cannon",
-	"3AS_Prop_Interiors",
-	"OPTRE_Buildings2_Visegrad",
-	"OPTRE_Buildings2_Reach_Walls",
-	"3AS_Prop_Sullust",
-	"A3_Structures_F_Exp_Industrial_Port",
-	"3AS_CIS_Wheeled_PAC",
-	"3AS_Prop_Trenches",
-	"3AS_Structures_City",
+	"A3_Rocks_F_Sharp",
+	"A3_Rocks_F_Enoch",
 	"3as_ModularPlatforms",
-	"3AS_Prop_LaserWalls",
-	"ls_modules",
-	"lsb_fob",
+	"A3_Structures_F_Mil_Barracks",
+	"OPTRE_BW_ModularBuildings",
+	"A3_Structures_F_Tank_Military_RepairDepot",
+	"A3_Structures_F_Mil_BagBunker",
+	"OPTRE_Corvette_Interior",
+	"3AS_Prop_Terminals",
 	"OPTRE_UNSC_Structure_Military",
+	"ls_holoprojector",
+	"lsb_props_holograms",
+	"3AS_Structure2_MissionTools",
+	"A3_Modules_F",
+	"lsb_fob",
+	"OPTRE_BW_DoorConsole",
+	"3AS_Prop_Interiors",
+	"ls_compat_ace_interaction",
+	"3AS_Prop_Catwalks",
+	"3AS_Props2_Holosigns",
+	"OPTRE_UNSC_Structure_Arctic_Military",
+	"lsb_structures",
+	"ls_props_staticships",
+	"3AS_Prop_Platforms",
+	"3AS_Prop_Capital_Venator",
+	"3AS_Structures2_FlatShields",
+	"3AS_Prop_MB",
+	"OPTRE_UNSC_Structure_Highway",
+	"A3_Soft_F_Gamma_Truck_01",
+	"ace_realisticnames",
+	"ace_rearm",
+	"ace_cargo",
+	"3AS_Structures_LandingPads",
+	"3AS_Prop_orto_plut_interiors",
+	"OPTRE_Buildings_Street_Objects",
+	"A3_Structures_F_Mil_Helipads",
+	"ls_modules",
+	"lsb_modules",
 	"3AS_Prop_Posters",
 	"A3_Structures_F_Bootcamp_VR_Helpers",
-	"sob_compat_arsenal",
-	"A3_Structures_F_Mil_Helipads",
-	"3AS_Structures2_StairsLadderElevator",
-	"rri_armoury_props_misc",
-	"OPTRE_Corvette_Interior",
-	"3AS_Props2_MiscItems",
-	"3AS_Props2_Doors",
-	"OPTRE_UNSC_Structure_Arctic_Military",
-	"3AS_Prop_orto_plut_interiors",
-	"OPTRE_Ins_Object_class",
-	"3AS_Prop_Capital_Venator",
-	"A3_Structures_F_Civ_Accessories",
 	"A3_Characters_F",
 	"A3_Weapons_F",
 	"JLTS_weapons_Core",
 	"JLTS_radios",
 	"ls_characters_clone_legacy",
-	"A3_Modules_F_Curator_Curator",
+	"sob_compat_arsenal",
+	"3AS_Structures2_StairsLadderElevator",
 	"OPTRE_Vehicles_Cart",
-	"rri_modules",
-	"rri_armoury_vehicles_av7",
-	"A3_Static_F_Destroyer_Ship_MRLS_01",
-	"A3_Characters_F_Common",
+	"A3_Modules_F_Curator_Curator",
+	"3AS_Prop_Sullust",
+	"A3_Misc_F_Helpers",
+	"ls_props",
+	"ls_radios",
+	"NCA_props_crates",
 	"rri_logistics",
+	"rri_modules",
+	"Bacta",
 	"rri_armoury_props_Console",
-	"3AS_Props2_Holosigns",
-	"lsb_modules",
-	"rri_armoury_props_banners",
-	"A3_Props_F_Destroyer_Military_BriefingRoomScreen"
+	"3AS_Structures_Lights",
+	"3AS_Imperial",
+	"TKE_Props",
+	"OPTRE_Buildings_Camp",
+	"lsb_fob_hBlock",
+	"3AS_Structures_City",
+	"3AS_AAT",
+	"3AS_ADSD",
+	"A3_Props_F_Jets_Military_Trolley",
+	"3AS_Prop_pipes",
+	"A3_Structures_F_Exp_Industrial_Port",
+	"3AS_GAT",
+	"OPTRE_UNSC_Structure_Secundus",
+	"3AS_Prop_LaserWalls",
+	"3AS_Prop_Trenches",
+	"3AS_Structures_ShieldGenerator",
+	"OPTRE_UNSC_Structure_CityObjects",
+	"3AS_Prop_Debris",
+	"A3_Structures_F_Enoch_Military_Training",
+	"A3_Data_F_ParticleEffects",
+	"A3_Props_F_Enoch_Military_Garbage",
+	"A3_Props_F_Exp_Military_OldPlaneWrecks",
+	"A3_Structures_F_Argo_Walls_Military",
+	"A3_Structures_F_Argo_Military_Domes",
+	"3AS_LightVics_Barc",
+	"A3_Structures_F_Exp_Military_Emplacements",
+	"3AS_LAAT"
 };
 class AddonsMetaData
 {
@@ -564,19 +588,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					singleType="SCALAR";
-					value=0;
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -604,6 +615,19 @@ class CustomAttributes
 							};
 						};
 					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					singleType="SCALAR";
+					value=0;
 				};
 			};
 		};
@@ -6762,8 +6786,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=403;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -7271,8 +7295,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=425;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -8150,8 +8174,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=458;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -8819,8 +8843,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=484;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -11105,8 +11129,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=560;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -11613,8 +11637,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=579;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -12496,8 +12520,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=609;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -13166,8 +13190,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=632;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -15466,8 +15490,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=854;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -15975,8 +15999,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=876;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -16857,8 +16881,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=909;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -17525,8 +17549,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=935;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -19816,8 +19840,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=1158;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -20321,8 +20345,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=1180;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -21202,8 +21226,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=1213;
 									type="land_3AS_CIS_Wall_Tower_v2";
@@ -21871,8 +21895,8 @@ class Mission
 									flags=1;
 									class Attributes
 									{
+										createAsSimpleObject=1;
 										disableSimulation=1;
-										dynamicSimulation=1;
 									};
 									id=1239;
 									type="land_3AS_CIS_Wall_Tower_v2";
